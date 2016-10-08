@@ -98,6 +98,7 @@
 				TargetAttributes = {
 					40E08A521B4FC70400D06A21 = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 27Y8NRL9QE;
 						LastSwiftMigration = 0800;
 					};
 				};
@@ -253,7 +254,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 27Y8NRL9QE;
 				INFOPLIST_FILE = HelloAppleWatch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.HelloAppleWatch;
@@ -266,7 +267,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 27Y8NRL9QE;
 				INFOPLIST_FILE = HelloAppleWatch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.HelloAppleWatch;
