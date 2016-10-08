@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="11173.2" systemVersion="15G31" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <deployment identifier="watchOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11143.2"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="11071"/>
+    </dependencies>
+    <scenes>
+        <!--Babel-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller title="Babel" id="AgC-eL-Hgc" customClass="InterfaceController" customModule="BabelWatch" customModuleProvider="target">
+                    <items>
+                        <group width="1" alignment="center" verticalAlignment="center" backgroundImage="bubble" contentMode="top" layout="vertical" id="o5e-3I-0Xy">
+                            <items>
+                                <label alignment="center" text="Question" textAlignment="center" numberOfLines="4" id="5NQ-zc-ydd">
+                                    <fontDescription key="font" type="system" pointSize="14"/>
+                                    <variation key="device=watch38mm">
+                                        <fontDescription key="font" type="system" pointSize="13"/>
+                                    </variation>
+                                    <variation key="device=watch42mm">
+                                        <fontDescription key="font" type="system" pointSize="15"/>
+                                    </variation>
+                                </label>
+                                <picker width="50" height="50" alignment="center" focusStyle="stack" id="o1m-L3-nVD">
+                                    <connections>
+                                        <action selector="pickerValueChanged:" destination="AgC-eL-Hgc" id="xSY-Au-aOS"/>
+                                    </connections>
+                                </picker>
+                            </items>
+                        </group>
+                        <button width="1" alignment="center" verticalAlignment="bottom" hidden="YES" title="Submit" id="lSe-6O-l0G">
+                            <fontDescription key="font" style="UICTFontTextStyleFootnote"/>
+                            <connections>
+                                <action selector="checkAnswer" destination="AgC-eL-Hgc" id="2Qq-VF-7RG"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="answerPicker" destination="o1m-L3-nVD" id="PlK-eA-ko1"/>
+                        <outlet property="questionLabel" destination="5NQ-zc-ydd" id="1uk-ch-43l"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="127" y="338"/>
+        </scene>
+    </scenes>
+</document>

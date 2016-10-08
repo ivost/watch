@@ -1,0 +1,566 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40C035891B79C82300079A60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C035881B79C82300079A60 /* AppDelegate.swift */; };
+		40C0358B1B79C82300079A60 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C0358A1B79C82300079A60 /* ViewController.swift */; };
+		40C0358E1B79C82300079A60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40C0358C1B79C82300079A60 /* Main.storyboard */; };
+		40C035901B79C82300079A60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40C0358F1B79C82300079A60 /* Assets.xcassets */; };
+		40C035931B79C82300079A60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40C035911B79C82300079A60 /* LaunchScreen.storyboard */; };
+		40C035981B79C82400079A60 /* TapTap WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 40C035971B79C82400079A60 /* TapTap WatchKit App.app */; };
+		40C0359E1B79C82400079A60 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40C0359C1B79C82400079A60 /* Interface.storyboard */; };
+		40C035A01B79C82400079A60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40C0359F1B79C82400079A60 /* Assets.xcassets */; };
+		40C035A71B79C82400079A60 /* TapTap WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 40C035A61B79C82400079A60 /* TapTap WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		40C035AE1B79C82400079A60 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C035AD1B79C82400079A60 /* ExtensionDelegate.swift */; };
+		40C035B01B79C82400079A60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40C035AF1B79C82400079A60 /* Assets.xcassets */; };
+		40C035C01B79C91300079A60 /* Tap123Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C035BF1B79C91300079A60 /* Tap123Controller.swift */; };
+		40C035C21B79C92B00079A60 /* Tap456Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C035C11B79C92B00079A60 /* Tap456Controller.swift */; };
+		40C035C41B79C93C00079A60 /* Tap789Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C035C31B79C93C00079A60 /* Tap789Controller.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		40C035991B79C82400079A60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40C0357D1B79C82300079A60 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40C035961B79C82400079A60;
+			remoteInfo = "TapTap WatchKit App";
+		};
+		40C035A81B79C82400079A60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40C0357D1B79C82300079A60 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40C035A51B79C82400079A60;
+			remoteInfo = "TapTap WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		40C035B71B79C82400079A60 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				40C035A71B79C82400079A60 /* TapTap WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40C035BB1B79C82400079A60 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				40C035981B79C82400079A60 /* TapTap WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		40C035851B79C82300079A60 /* TapTap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TapTap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		40C035881B79C82300079A60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		40C0358A1B79C82300079A60 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		40C0358D1B79C82300079A60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		40C0358F1B79C82300079A60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		40C035921B79C82300079A60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		40C035941B79C82300079A60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40C035971B79C82400079A60 /* TapTap WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TapTap WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40C0359D1B79C82400079A60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		40C0359F1B79C82400079A60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		40C035A11B79C82400079A60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40C035A61B79C82400079A60 /* TapTap WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "TapTap WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40C035AD1B79C82400079A60 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		40C035AF1B79C82400079A60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		40C035B11B79C82400079A60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40C035BF1B79C91300079A60 /* Tap123Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tap123Controller.swift; sourceTree = "<group>"; };
+		40C035C11B79C92B00079A60 /* Tap456Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tap456Controller.swift; sourceTree = "<group>"; };
+		40C035C31B79C93C00079A60 /* Tap789Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tap789Controller.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40C035821B79C82300079A60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40C035A31B79C82400079A60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40C0357C1B79C82300079A60 = {
+			isa = PBXGroup;
+			children = (
+				40C035871B79C82300079A60 /* TapTap */,
+				40C0359B1B79C82400079A60 /* TapTap WatchKit App */,
+				40C035AA1B79C82400079A60 /* TapTap WatchKit Extension */,
+				40C035861B79C82300079A60 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		40C035861B79C82300079A60 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40C035851B79C82300079A60 /* TapTap.app */,
+				40C035971B79C82400079A60 /* TapTap WatchKit App.app */,
+				40C035A61B79C82400079A60 /* TapTap WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40C035871B79C82300079A60 /* TapTap */ = {
+			isa = PBXGroup;
+			children = (
+				40C035881B79C82300079A60 /* AppDelegate.swift */,
+				40C0358A1B79C82300079A60 /* ViewController.swift */,
+				40C0358C1B79C82300079A60 /* Main.storyboard */,
+				40C0358F1B79C82300079A60 /* Assets.xcassets */,
+				40C035911B79C82300079A60 /* LaunchScreen.storyboard */,
+				40C035941B79C82300079A60 /* Info.plist */,
+			);
+			path = TapTap;
+			sourceTree = "<group>";
+		};
+		40C0359B1B79C82400079A60 /* TapTap WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				40C0359C1B79C82400079A60 /* Interface.storyboard */,
+				40C0359F1B79C82400079A60 /* Assets.xcassets */,
+				40C035A11B79C82400079A60 /* Info.plist */,
+			);
+			path = "TapTap WatchKit App";
+			sourceTree = "<group>";
+		};
+		40C035AA1B79C82400079A60 /* TapTap WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				40C035BF1B79C91300079A60 /* Tap123Controller.swift */,
+				40C035C11B79C92B00079A60 /* Tap456Controller.swift */,
+				40C035C31B79C93C00079A60 /* Tap789Controller.swift */,
+				40C035AD1B79C82400079A60 /* ExtensionDelegate.swift */,
+				40C035AF1B79C82400079A60 /* Assets.xcassets */,
+				40C035B11B79C82400079A60 /* Info.plist */,
+			);
+			path = "TapTap WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40C035841B79C82300079A60 /* TapTap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40C035BC1B79C82400079A60 /* Build configuration list for PBXNativeTarget "TapTap" */;
+			buildPhases = (
+				40C035811B79C82300079A60 /* Sources */,
+				40C035821B79C82300079A60 /* Frameworks */,
+				40C035831B79C82300079A60 /* Resources */,
+				40C035BB1B79C82400079A60 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40C0359A1B79C82400079A60 /* PBXTargetDependency */,
+			);
+			name = TapTap;
+			productName = TapTap;
+			productReference = 40C035851B79C82300079A60 /* TapTap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		40C035961B79C82400079A60 /* TapTap WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40C035B81B79C82400079A60 /* Build configuration list for PBXNativeTarget "TapTap WatchKit App" */;
+			buildPhases = (
+				40C035951B79C82400079A60 /* Resources */,
+				40C035B71B79C82400079A60 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40C035A91B79C82400079A60 /* PBXTargetDependency */,
+			);
+			name = "TapTap WatchKit App";
+			productName = "TapTap WatchKit App";
+			productReference = 40C035971B79C82400079A60 /* TapTap WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		40C035A51B79C82400079A60 /* TapTap WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40C035B41B79C82400079A60 /* Build configuration list for PBXNativeTarget "TapTap WatchKit Extension" */;
+			buildPhases = (
+				40C035A21B79C82400079A60 /* Sources */,
+				40C035A31B79C82400079A60 /* Frameworks */,
+				40C035A41B79C82400079A60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TapTap WatchKit Extension";
+			productName = "TapTap WatchKit Extension";
+			productReference = 40C035A61B79C82400079A60 /* TapTap WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40C0357D1B79C82300079A60 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Razeware;
+				TargetAttributes = {
+					40C035841B79C82300079A60 = {
+						CreatedOnToolsVersion = 7.0;
+						LastSwiftMigration = 0800;
+					};
+					40C035961B79C82400079A60 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					40C035A51B79C82400079A60 = {
+						CreatedOnToolsVersion = 7.0;
+						LastSwiftMigration = 0800;
+					};
+				};
+			};
+			buildConfigurationList = 40C035801B79C82300079A60 /* Build configuration list for PBXProject "TapTap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 40C0357C1B79C82300079A60;
+			productRefGroup = 40C035861B79C82300079A60 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40C035841B79C82300079A60 /* TapTap */,
+				40C035961B79C82400079A60 /* TapTap WatchKit App */,
+				40C035A51B79C82400079A60 /* TapTap WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40C035831B79C82300079A60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40C035931B79C82300079A60 /* LaunchScreen.storyboard in Resources */,
+				40C035901B79C82300079A60 /* Assets.xcassets in Resources */,
+				40C0358E1B79C82300079A60 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40C035951B79C82400079A60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40C035A01B79C82400079A60 /* Assets.xcassets in Resources */,
+				40C0359E1B79C82400079A60 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40C035A41B79C82400079A60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40C035B01B79C82400079A60 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40C035811B79C82300079A60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40C0358B1B79C82300079A60 /* ViewController.swift in Sources */,
+				40C035891B79C82300079A60 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40C035A21B79C82400079A60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40C035AE1B79C82400079A60 /* ExtensionDelegate.swift in Sources */,
+				40C035C41B79C93C00079A60 /* Tap789Controller.swift in Sources */,
+				40C035C21B79C92B00079A60 /* Tap456Controller.swift in Sources */,
+				40C035C01B79C91300079A60 /* Tap123Controller.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		40C0359A1B79C82400079A60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40C035961B79C82400079A60 /* TapTap WatchKit App */;
+			targetProxy = 40C035991B79C82400079A60 /* PBXContainerItemProxy */;
+		};
+		40C035A91B79C82400079A60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40C035A51B79C82400079A60 /* TapTap WatchKit Extension */;
+			targetProxy = 40C035A81B79C82400079A60 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		40C0358C1B79C82300079A60 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40C0358D1B79C82300079A60 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		40C035911B79C82300079A60 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40C035921B79C82300079A60 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		40C0359C1B79C82400079A60 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40C0359D1B79C82400079A60 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		40C035B21B79C82400079A60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		40C035B31B79C82400079A60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40C035B51B79C82400079A60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "TapTap WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.TapTap.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		40C035B61B79C82400079A60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "TapTap WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.TapTap.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		40C035B91B79C82400079A60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = TapTap_WatchKit_Extension;
+				INFOPLIST_FILE = "TapTap WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.TapTap.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		40C035BA1B79C82400079A60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = TapTap_WatchKit_Extension;
+				INFOPLIST_FILE = "TapTap WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.TapTap.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		40C035BD1B79C82400079A60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TapTap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.TapTap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		40C035BE1B79C82400079A60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TapTap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.TapTap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40C035801B79C82300079A60 /* Build configuration list for PBXProject "TapTap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40C035B21B79C82400079A60 /* Debug */,
+				40C035B31B79C82400079A60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40C035B41B79C82400079A60 /* Build configuration list for PBXNativeTarget "TapTap WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40C035B51B79C82400079A60 /* Debug */,
+				40C035B61B79C82400079A60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40C035B81B79C82400079A60 /* Build configuration list for PBXNativeTarget "TapTap WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40C035B91B79C82400079A60 /* Debug */,
+				40C035BA1B79C82400079A60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40C035BC1B79C82400079A60 /* Build configuration list for PBXNativeTarget "TapTap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40C035BD1B79C82400079A60 /* Debug */,
+				40C035BE1B79C82400079A60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 40C0357D1B79C82300079A60 /* Project object */;
+}

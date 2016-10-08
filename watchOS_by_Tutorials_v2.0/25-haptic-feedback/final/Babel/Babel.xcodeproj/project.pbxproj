@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40CE9AF71B69B49900278D71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40CE9AF61B69B49900278D71 /* AppDelegate.swift */; };
+		40CE9AF91B69B49900278D71 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40CE9AF81B69B49900278D71 /* ViewController.swift */; };
+		40CE9AFC1B69B49900278D71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40CE9AFA1B69B49900278D71 /* Main.storyboard */; };
+		40CE9AFE1B69B49900278D71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40CE9AFD1B69B49900278D71 /* Assets.xcassets */; };
+		40CE9B011B69B49900278D71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40CE9AFF1B69B49900278D71 /* LaunchScreen.storyboard */; };
+		40D189791B6DA6F2001C81A7 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40D189771B6DA6F2001C81A7 /* Interface.storyboard */; };
+		40D1897B1B6DA6F2001C81A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40D1897A1B6DA6F2001C81A7 /* Assets.xcassets */; };
+		40D189821B6DA6F2001C81A7 /* BabelWatch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 40D189811B6DA6F2001C81A7 /* BabelWatch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		40D189871B6DA6F2001C81A7 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D189861B6DA6F2001C81A7 /* InterfaceController.swift */; };
+		40D189891B6DA6F2001C81A7 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D189881B6DA6F2001C81A7 /* ExtensionDelegate.swift */; };
+		40D1898B1B6DA6F2001C81A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40D1898A1B6DA6F2001C81A7 /* Assets.xcassets */; };
+		40D1898F1B6DA6F2001C81A7 /* BabelWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 40D189751B6DA6F2001C81A7 /* BabelWatch.app */; };
+		40D189991B6E1A7F001C81A7 /* BabelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D189981B6E1A7F001C81A7 /* BabelData.swift */; };
+		40D1899A1B6E1A7F001C81A7 /* BabelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D189981B6E1A7F001C81A7 /* BabelData.swift */; };
+		40EA62891BB23520001D57A7 /* AnswerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40EA62881BB23520001D57A7 /* AnswerCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		40D189831B6DA6F2001C81A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40CE9AEB1B69B49900278D71 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40D189801B6DA6F2001C81A7;
+			remoteInfo = "BabelWatch Extension";
+		};
+		40D1898D1B6DA6F2001C81A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40CE9AEB1B69B49900278D71 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40D189741B6DA6F2001C81A7;
+			remoteInfo = BabelWatch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		40D189951B6DA6F2001C81A7 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				40D189821B6DA6F2001C81A7 /* BabelWatch Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40D189971B6DA6F2001C81A7 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				40D1898F1B6DA6F2001C81A7 /* BabelWatch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		40CE9AF31B69B49900278D71 /* Babel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Babel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		40CE9AF61B69B49900278D71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		40CE9AF81B69B49900278D71 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		40CE9AFB1B69B49900278D71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		40CE9AFD1B69B49900278D71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		40CE9B001B69B49900278D71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		40CE9B021B69B49900278D71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40D189751B6DA6F2001C81A7 /* BabelWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BabelWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		40D189781B6DA6F2001C81A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		40D1897A1B6DA6F2001C81A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		40D1897C1B6DA6F2001C81A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40D189811B6DA6F2001C81A7 /* BabelWatch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "BabelWatch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40D189861B6DA6F2001C81A7 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		40D189881B6DA6F2001C81A7 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		40D1898A1B6DA6F2001C81A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		40D1898C1B6DA6F2001C81A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40D189981B6E1A7F001C81A7 /* BabelData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BabelData.swift; path = Babel/Shared/BabelData.swift; sourceTree = "<group>"; };
+		40EA62881BB23520001D57A7 /* AnswerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnswerCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40CE9AF01B69B49900278D71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40D1897E1B6DA6F2001C81A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40CE9AEA1B69B49900278D71 = {
+			isa = PBXGroup;
+			children = (
+				40CE9AF51B69B49900278D71 /* Babel */,
+				40D1899B1B6E1A93001C81A7 /* Shared */,
+				40D189761B6DA6F2001C81A7 /* BabelWatch */,
+				40D189851B6DA6F2001C81A7 /* BabelWatch Extension */,
+				40CE9AF41B69B49900278D71 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		40CE9AF41B69B49900278D71 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40CE9AF31B69B49900278D71 /* Babel.app */,
+				40D189751B6DA6F2001C81A7 /* BabelWatch.app */,
+				40D189811B6DA6F2001C81A7 /* BabelWatch Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40CE9AF51B69B49900278D71 /* Babel */ = {
+			isa = PBXGroup;
+			children = (
+				40CE9AF61B69B49900278D71 /* AppDelegate.swift */,
+				40CE9AF81B69B49900278D71 /* ViewController.swift */,
+				40CE9AFA1B69B49900278D71 /* Main.storyboard */,
+				40EA62881BB23520001D57A7 /* AnswerCell.swift */,
+				40CE9AFD1B69B49900278D71 /* Assets.xcassets */,
+				40CE9AFF1B69B49900278D71 /* LaunchScreen.storyboard */,
+				40CE9B021B69B49900278D71 /* Info.plist */,
+			);
+			path = Babel;
+			sourceTree = "<group>";
+		};
+		40D189761B6DA6F2001C81A7 /* BabelWatch */ = {
+			isa = PBXGroup;
+			children = (
+				40D189771B6DA6F2001C81A7 /* Interface.storyboard */,
+				40D1897A1B6DA6F2001C81A7 /* Assets.xcassets */,
+				40D1897C1B6DA6F2001C81A7 /* Info.plist */,
+			);
+			path = BabelWatch;
+			sourceTree = "<group>";
+		};
+		40D189851B6DA6F2001C81A7 /* BabelWatch Extension */ = {
+			isa = PBXGroup;
+			children = (
+				40D189861B6DA6F2001C81A7 /* InterfaceController.swift */,
+				40D189881B6DA6F2001C81A7 /* ExtensionDelegate.swift */,
+				40D1898A1B6DA6F2001C81A7 /* Assets.xcassets */,
+				40D1898C1B6DA6F2001C81A7 /* Info.plist */,
+			);
+			path = "BabelWatch Extension";
+			sourceTree = "<group>";
+		};
+		40D1899B1B6E1A93001C81A7 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				40D189981B6E1A7F001C81A7 /* BabelData.swift */,
+			);
+			name = Shared;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40CE9AF21B69B49900278D71 /* Babel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40CE9B051B69B49900278D71 /* Build configuration list for PBXNativeTarget "Babel" */;
+			buildPhases = (
+				40CE9AEF1B69B49900278D71 /* Sources */,
+				40CE9AF01B69B49900278D71 /* Frameworks */,
+				40CE9AF11B69B49900278D71 /* Resources */,
+				40D189971B6DA6F2001C81A7 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40D1898E1B6DA6F2001C81A7 /* PBXTargetDependency */,
+			);
+			name = Babel;
+			productName = Babel;
+			productReference = 40CE9AF31B69B49900278D71 /* Babel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		40D189741B6DA6F2001C81A7 /* BabelWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40D189961B6DA6F2001C81A7 /* Build configuration list for PBXNativeTarget "BabelWatch" */;
+			buildPhases = (
+				40D189731B6DA6F2001C81A7 /* Resources */,
+				40D189951B6DA6F2001C81A7 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40D189841B6DA6F2001C81A7 /* PBXTargetDependency */,
+			);
+			name = BabelWatch;
+			productName = BabelWatch;
+			productReference = 40D189751B6DA6F2001C81A7 /* BabelWatch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		40D189801B6DA6F2001C81A7 /* BabelWatch Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40D189941B6DA6F2001C81A7 /* Build configuration list for PBXNativeTarget "BabelWatch Extension" */;
+			buildPhases = (
+				40D1897D1B6DA6F2001C81A7 /* Sources */,
+				40D1897E1B6DA6F2001C81A7 /* Frameworks */,
+				40D1897F1B6DA6F2001C81A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BabelWatch Extension";
+			productName = "BabelWatch Extension";
+			productReference = 40D189811B6DA6F2001C81A7 /* BabelWatch Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40CE9AEB1B69B49900278D71 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Razeware LLC";
+				TargetAttributes = {
+					40CE9AF21B69B49900278D71 = {
+						CreatedOnToolsVersion = 7.0;
+						LastSwiftMigration = 0800;
+					};
+					40D189741B6DA6F2001C81A7 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					40D189801B6DA6F2001C81A7 = {
+						CreatedOnToolsVersion = 7.0;
+						LastSwiftMigration = 0800;
+					};
+				};
+			};
+			buildConfigurationList = 40CE9AEE1B69B49900278D71 /* Build configuration list for PBXProject "Babel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 40CE9AEA1B69B49900278D71;
+			productRefGroup = 40CE9AF41B69B49900278D71 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40CE9AF21B69B49900278D71 /* Babel */,
+				40D189741B6DA6F2001C81A7 /* BabelWatch */,
+				40D189801B6DA6F2001C81A7 /* BabelWatch Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40CE9AF11B69B49900278D71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40CE9B011B69B49900278D71 /* LaunchScreen.storyboard in Resources */,
+				40CE9AFE1B69B49900278D71 /* Assets.xcassets in Resources */,
+				40CE9AFC1B69B49900278D71 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40D189731B6DA6F2001C81A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40D1897B1B6DA6F2001C81A7 /* Assets.xcassets in Resources */,
+				40D189791B6DA6F2001C81A7 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40D1897F1B6DA6F2001C81A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40D1898B1B6DA6F2001C81A7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40CE9AEF1B69B49900278D71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40D189991B6E1A7F001C81A7 /* BabelData.swift in Sources */,
+				40CE9AF91B69B49900278D71 /* ViewController.swift in Sources */,
+				40CE9AF71B69B49900278D71 /* AppDelegate.swift in Sources */,
+				40EA62891BB23520001D57A7 /* AnswerCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40D1897D1B6DA6F2001C81A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40D1899A1B6E1A7F001C81A7 /* BabelData.swift in Sources */,
+				40D189891B6DA6F2001C81A7 /* ExtensionDelegate.swift in Sources */,
+				40D189871B6DA6F2001C81A7 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		40D189841B6DA6F2001C81A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40D189801B6DA6F2001C81A7 /* BabelWatch Extension */;
+			targetProxy = 40D189831B6DA6F2001C81A7 /* PBXContainerItemProxy */;
+		};
+		40D1898E1B6DA6F2001C81A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40D189741B6DA6F2001C81A7 /* BabelWatch */;
+			targetProxy = 40D1898D1B6DA6F2001C81A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		40CE9AFA1B69B49900278D71 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40CE9AFB1B69B49900278D71 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		40CE9AFF1B69B49900278D71 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40CE9B001B69B49900278D71 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		40D189771B6DA6F2001C81A7 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40D189781B6DA6F2001C81A7 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		40CE9B031B69B49900278D71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		40CE9B041B69B49900278D71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40CE9B061B69B49900278D71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Babel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.Babel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		40CE9B071B69B49900278D71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Babel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.Babel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		40D189901B6DA6F2001C81A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = BabelWatch_Extension;
+				INFOPLIST_FILE = BabelWatch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.Babel.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		40D189911B6DA6F2001C81A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = BabelWatch_Extension;
+				INFOPLIST_FILE = BabelWatch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.Babel.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		40D189921B6DA6F2001C81A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "BabelWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.Babel.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		40D189931B6DA6F2001C81A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "BabelWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.Babel.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40CE9AEE1B69B49900278D71 /* Build configuration list for PBXProject "Babel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40CE9B031B69B49900278D71 /* Debug */,
+				40CE9B041B69B49900278D71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40CE9B051B69B49900278D71 /* Build configuration list for PBXNativeTarget "Babel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40CE9B061B69B49900278D71 /* Debug */,
+				40CE9B071B69B49900278D71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40D189941B6DA6F2001C81A7 /* Build configuration list for PBXNativeTarget "BabelWatch Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40D189921B6DA6F2001C81A7 /* Debug */,
+				40D189931B6DA6F2001C81A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40D189961B6DA6F2001C81A7 /* Build configuration list for PBXNativeTarget "BabelWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40D189901B6DA6F2001C81A7 /* Debug */,
+				40D189911B6DA6F2001C81A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 40CE9AEB1B69B49900278D71 /* Project object */;
+}

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="11521.1" systemVersion="16A323" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11517.1"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="11506"/>
+    </dependencies>
+    <scenes>
+        <!--FloInterfaceController-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller identifier="FloInterfaceController" title="Flo" id="AgC-eL-Hgc" userLabel="FloInterfaceController" customClass="InterfaceController" customModule="FloW" customModuleProvider="target">
+                    <items>
+                        <label alignment="center" hidden="YES" text="Hidden Label" id="xWc-XH-1JL">
+                            <fontDescription key="font" type="system" pointSize="10"/>
+                        </label>
+                        <label height="0.25" alignment="center" text="7.9" textAlignment="center" id="oaL-Mj-sP4">
+                            <fontDescription key="font" type="system" pointSize="56"/>
+                            <variation key="device=watch38mm">
+                                <fontDescription key="font" type="system" pointSize="48"/>
+                            </variation>
+                            <variation key="device=watch42mm">
+                                <fontDescription key="font" type="system" pointSize="56"/>
+                            </variation>
+                        </label>
+                        <button alignment="center" verticalAlignment="center" id="hAS-zk-f5B">
+                            <group key="contentGroup" width="80" height="80" alignment="left" radius="40" id="BQS-Y4-LZA">
+                                <items>
+                                    <label alignment="center" verticalAlignment="center" text="+" textAlignment="center" id="CG3-m4-JgT">
+                                        <fontDescription key="font" type="system" weight="thin" pointSize="72"/>
+                                        <variation key="device=watch38mm">
+                                            <fontDescription key="font" type="system" weight="ultraLight" pointSize="64"/>
+                                        </variation>
+                                        <variation key="device=watch42mm">
+                                            <fontDescription key="font" type="system" weight="thin" pointSize="72"/>
+                                        </variation>
+                                    </label>
+                                </items>
+                                <color key="backgroundColor" red="0.14117647058823529" green="0.72941176470588232" blue="0.99607843137254903" alpha="1" colorSpace="calibratedRGB"/>
+                                <edgeInsets key="margins" left="0.0" right="0.0" top="0.0" bottom="12"/>
+                                <variation key="device=watch38mm" height="60" radius="30" width="60"/>
+                                <variation key="device=watch42mm" height="80" radius="40" width="80"/>
+                            </group>
+                            <connections>
+                                <action selector="buttonTapped" destination="AgC-eL-Hgc" id="0g0-Dh-c7g"/>
+                            </connections>
+                        </button>
+                        <group width="1" height="0.25" alignment="left" verticalAlignment="bottom" layout="vertical" id="5GF-oP-ygo" userLabel="Info Group">
+                            <items>
+                                <group width="1" height="0.5" alignment="center" verticalAlignment="center" id="UDf-Qa-r2A" userLabel="Drinks Group">
+                                    <items>
+                                        <imageView width="0.14999999999999999" height="1" alignment="center" image="glass" contentMode="scaleAspectFit" id="Mpa-k8-vQW"/>
+                                        <label alignment="center" verticalAlignment="center" text="999" id="LT3-Od-PRR">
+                                            <fontDescription key="font" type="system" pointSize="20"/>
+                                            <variation key="device=watch42mm">
+                                                <fontDescription key="font" type="system" pointSize="20"/>
+                                            </variation>
+                                        </label>
+                                    </items>
+                                </group>
+                                <label height="0.5" alignment="center" verticalAlignment="bottom" text="Since 12/12/16 5:35p" textAlignment="center" numberOfLines="0" id="hVb-cn-UbO">
+                                    <fontDescription key="font" type="system" pointSize="13"/>
+                                </label>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="button" destination="hAS-zk-f5B" id="avH-RI-sC0"/>
+                        <outlet property="drinkAverageLabel" destination="oaL-Mj-sP4" id="0p0-qG-okp"/>
+                        <outlet property="drinkCountLabel" destination="LT3-Od-PRR" id="Qmw-T1-0bJ"/>
+                        <outlet property="hiddenLabel" destination="xWc-XH-1JL" id="4YX-B3-trz"/>
+                        <outlet property="infoLabel" destination="hVb-cn-UbO" id="eJG-KN-ldV"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="-101" y="94"/>
+        </scene>
+    </scenes>
+</document>

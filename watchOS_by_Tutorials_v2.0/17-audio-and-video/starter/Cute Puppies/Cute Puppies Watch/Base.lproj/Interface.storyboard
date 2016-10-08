@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="11201" systemVersion="16B2327e" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="ocU-dj-QwJ">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="11077"/>
+    </dependencies>
+    <scenes>
+        <!--Cute Puppies!-->
+        <scene sceneID="ITD-SF-YXM">
+            <objects>
+                <controller identifier="InterfaceController" title="Cute Pups!" spacing="0.0" alwaysBounce="YES" id="ocU-dj-QwJ" userLabel="Cute Puppies!" customClass="InterfaceController" customModule="Cute_Puppies_Watch_Extension">
+                    <items>
+                        <table alignment="center" spacing="6" id="j8o-Cg-ElH">
+                            <items>
+                                <tableRow identifier="VideoRowController" id="lg9-24-wJH" customClass="VideoRowController" customModule="Cute_Puppies_Watch_Extension">
+                                    <group key="rootItem" width="1" height="0.0" alignment="left" layout="vertical" spacing="0.0" id="x8p-PA-HRx">
+                                        <items>
+                                            <group width="1" height="90" alignment="left" layout="vertical" spacing="0.0" id="Hal-vB-D53">
+                                                <items>
+                                                    <imageView width="1" height="1" alignment="left" contentMode="scaleAspectFill" id="v8C-N3-3z0"/>
+                                                    <label width="1" height="1" alignment="center" verticalAlignment="center" textAlignment="center" id="dLP-7a-OBc"/>
+                                                </items>
+                                            </group>
+                                        </items>
+                                        <color key="backgroundColor" red="0.12549019610000001" green="0.12549019610000001" blue="0.12549019610000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <edgeInsets key="margins" left="4" right="4" top="4" bottom="4"/>
+                                    </group>
+                                    <connections>
+                                        <outlet property="image" destination="v8C-N3-3z0" id="Y0M-qf-gJf"/>
+                                        <outlet property="textLabel" destination="dLP-7a-OBc" id="pr9-7L-7RU"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="table" destination="j8o-Cg-ElH" id="8gh-1H-BPW"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="148" y="158"/>
+        </scene>
+    </scenes>
+</document>
